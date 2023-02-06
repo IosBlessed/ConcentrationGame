@@ -83,7 +83,7 @@ class Game : UIViewController{
         
         for animal in animals{
             if animal.isHidden != true{
-                timeForAttention += 0.5
+                timeForAttention += 0.4
             }
         }
         
