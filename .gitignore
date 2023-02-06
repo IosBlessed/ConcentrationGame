@@ -5,6 +5,14 @@
 ## User settings
 xcuserdata/
 
+.DS_Store
+
+**/*.DS.Store
+
+**/Concentration.xcodeproj/*
+
+
+
 ## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
 *.xcscmblueprint
 *.xccheckout
@@ -38,9 +46,10 @@ playground.xcworkspace
 #
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
+ Package.pins
+ Package.resolved
+ *.xcodeproj
+
 #
 # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
 # hence it is not needed unless you have added a package configuration file to your project
@@ -57,7 +66,7 @@ playground.xcworkspace
 # Pods/
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
+*.xcworkspace
 
 # Carthage
 #
