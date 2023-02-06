@@ -11,6 +11,11 @@ xcuserdata/
 
 **/Concentration.xcodeproj/*
 
+<<<<<<< HEAD
+=======
+**/Concentration.xcodeproj/*
+
+>>>>>>> test
 *.pbxproj
 
 **/project.pbxproj
