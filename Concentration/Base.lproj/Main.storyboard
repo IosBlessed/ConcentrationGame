@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Bj-4r-f30">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4Bj-4r-f30">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <navigationController id="4Bj-4r-f30" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aFQ-P9-zFJ">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -30,7 +30,7 @@
             <objects>
                 <viewController storyboardIdentifier="MainMenu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Oah-hJ-IIF" customClass="ViewController" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fc4-d8-UDL">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="top" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vez-ch-yiC">
@@ -78,10 +78,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="ubz-6F-S5X">
-                                <rect key="frame" x="90" y="318" width="210" height="305"/>
+                                <rect key="frame" x="90" y="322" width="234" height="304.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVL-Ee-ZK1" customClass="RoundButton" customModule="Concentration" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="210" height="71.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="234" height="71.5"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -105,7 +105,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDW-WY-7pG" customClass="RoundButton" customModule="Concentration" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="116.66666666666669" width="210" height="71.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="116.5" width="234" height="71.5"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -126,7 +126,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFs-Bx-7fo" customClass="RoundButton" customModule="Concentration" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="233.33333333333334" width="210" height="71.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="233" width="234" height="71.5"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
@@ -174,7 +174,7 @@
             <objects>
                 <viewController id="O5K-ET-pn0" customClass="ViewControllerSignUp" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VaJ-rf-5O3">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UcN-AG-Jg3">
@@ -278,20 +278,20 @@
             <objects>
                 <viewController id="y0z-Bx-EWO" customClass="ViewControllerLevels" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gCb-ys-voP">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="4Yh-D7-5SQ">
-                                <rect key="frame" x="90" y="228" width="210" height="390"/>
+                                <rect key="frame" x="90" y="232" width="234" height="390"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mode" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7s-GP-Hcg">
-                                        <rect key="frame" x="0.0" y="0.0" width="210" height="54"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="234" height="54"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                         <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSo-aR-bt6" customClass="RoundButton" customModule="Concentration" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="94" width="210" height="72"/>
+                                        <rect key="frame" x="0.0" y="94" width="234" height="72"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -308,7 +308,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hon-LI-U2l" customClass="RoundButton" customModule="Concentration" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="206" width="210" height="72"/>
+                                        <rect key="frame" x="0.0" y="206" width="234" height="72"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -325,7 +325,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6u1-QE-ZOs" customClass="RoundButton" customModule="Concentration" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="318" width="210" height="72"/>
+                                        <rect key="frame" x="0.0" y="318" width="234" height="72"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -366,7 +366,7 @@
             <objects>
                 <viewController id="5Cp-1h-ptn" customClass="ViewControllerStatistics" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DwH-CN-Bnx">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="gti-m8-jCt"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -381,7 +381,7 @@
             <objects>
                 <viewController storyboardIdentifier="GMVC" id="EMF-dt-d1g" customClass="ViewControllerGame" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xgz-ng-taw">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23M-4Y-MwT">
@@ -568,7 +568,7 @@
             <objects>
                 <viewController storyboardIdentifier="RESULT" id="5RR-VN-Duj" customClass="ViewControllerFinalResult" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RAJ-kv-dnr">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your score is: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n94-Qh-pWX">
@@ -718,7 +718,7 @@
             <objects>
                 <viewController id="7Ua-6O-utT" customClass="ViewControllerSignIn" customModule="Concentration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Tj-Xl-74J">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dIs-4m-s4b">
@@ -829,37 +829,37 @@
             <size key="intrinsicContentSize" width="103" height="72"/>
         </designable>
         <designable name="BFs-Bx-7fo">
-            <size key="intrinsicContentSize" width="193.66666666666666" height="71.666666666666671"/>
+            <size key="intrinsicContentSize" width="194" height="71.5"/>
         </designable>
         <designable name="BQS-EK-x7s">
-            <size key="intrinsicContentSize" width="107.33333333333333" height="53.333333333333336"/>
+            <size key="intrinsicContentSize" width="107.5" height="53.5"/>
         </designable>
         <designable name="Hon-LI-U2l">
             <size key="intrinsicContentSize" width="174" height="72"/>
         </designable>
         <designable name="IKl-2A-7pu">
-            <size key="intrinsicContentSize" width="96.333333333333329" height="35"/>
+            <size key="intrinsicContentSize" width="96.5" height="35"/>
         </designable>
         <designable name="MFZ-IC-J7o">
-            <size key="intrinsicContentSize" width="134.33333333333334" height="35"/>
+            <size key="intrinsicContentSize" width="134.5" height="35"/>
         </designable>
         <designable name="Mo2-fU-T9C">
-            <size key="intrinsicContentSize" width="150.66666666666666" height="53.333333333333336"/>
+            <size key="intrinsicContentSize" width="151" height="53.5"/>
         </designable>
         <designable name="gKg-kk-MlN">
-            <size key="intrinsicContentSize" width="115.33333333333333" height="35"/>
+            <size key="intrinsicContentSize" width="115.5" height="35"/>
         </designable>
         <designable name="jVL-Ee-ZK1">
-            <size key="intrinsicContentSize" width="174.33333333333334" height="71.666666666666671"/>
+            <size key="intrinsicContentSize" width="174.5" height="71.5"/>
         </designable>
         <designable name="oDW-WY-7pG">
-            <size key="intrinsicContentSize" width="204.66666666666666" height="71.666666666666671"/>
+            <size key="intrinsicContentSize" width="205" height="71.5"/>
         </designable>
         <designable name="pSo-aR-bt6">
             <size key="intrinsicContentSize" width="102" height="72"/>
         </designable>
         <designable name="uPI-Jr-YhR">
-            <size key="intrinsicContentSize" width="126.33333333333333" height="53.333333333333336"/>
+            <size key="intrinsicContentSize" width="126.5" height="53.5"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
@@ -868,7 +868,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

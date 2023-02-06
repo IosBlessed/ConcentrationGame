@@ -30,5 +30,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:82247477048:ios:6702f057684504af8d43cd</string>
+	<key>DATABASE_URL</key>
+	<string>https://concentration-firebase-default-rtdb.europe-west1.firebasedatabase.app</string>
 </dict>
 </plist>
