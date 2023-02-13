@@ -84,6 +84,7 @@ class Game : UIViewController{
         for animal in animals{
             if animal.isHidden != true{
                 timeForAttention += 0.4
+                animal.isUserInteractionEnabled = false
             }
         }
         
@@ -91,6 +92,7 @@ class Game : UIViewController{
             if finished{
                 for animal in self.animals{
                     animal.setTitle("", for: .normal)
+                    animal.isUserInteractionEnabled = true
                 }
             }
         }
